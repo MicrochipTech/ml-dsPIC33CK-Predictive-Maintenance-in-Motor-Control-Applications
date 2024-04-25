@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <executable name="dist/default/production/anomaly-detection-ml-33ck256mp508-lvmc.X.production.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>24576</length>
+      <used>9306</used>
+      <free>15270</free>
+    </memory>
+    <memory name="program">
+      <units>bytes</units>
+      <length>269184</length>
+      <used>77244</used>
+      <free>191940</free>
+    </memory>
+  </executable>
+</project>
