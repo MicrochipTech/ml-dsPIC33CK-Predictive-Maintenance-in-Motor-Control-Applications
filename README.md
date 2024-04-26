@@ -30,10 +30,10 @@ In addition, there is also an 'unknown' class for the operation those don't fall
 * motorBench® Development Suite [Software Plugin Details](https://www.microchip.com/en-us/solutions/technologies/motor-control-and-drive/motorbench-development-suite)
 
 ## Data Collection
-The [dataset](/dataset) used for the development of this application consists of Motor IQ current and Motor RPM measurements taken from a 24V 3-Phase Brushless DC Motor connected to a dsPIC33CK LVMC Development Board, running on an FOC motor control algorithm. No sensors were used in this application. For further description of the application setup, see the [Predictive Maintenance with MPLAB ML tutorial](TBA). 
+The [dataset](/dataset) used for the development of this application consists of Motor IQ current and Motor RPM measurements taken from a 24V 3-Phase Brushless DC Motor connected to a dsPIC33CK LVMC Development Board, running on an FOC motor control algorithm. No sensors were used in this application. For further description of the application setup, see the [Predictive Maintenance with MPLAB ML tutorial](https://onlinedocs.microchip.com/oxy/GUID-80D4088D-19D0-41E9-BE8D-7AE3BE021BBF-en-US-3/GUID-E6CBB10A-FFC8-4EF3-8C07-D29B64446EB6.html). 
 
 ## Data Collection Firmware
-A binary build of the data logging firmware used in the data collection for this project can be found in the [binaries folder of this repo](/binaries); to build data logging firmware for different  configurations, visit the [ml-33ck265mp508-lvmc-datalogger](TBA) repository.
+A binary build of the data logging firmware used in the data collection for this project can be found in the [binaries folder of this repo](/binaries); to build data logging firmware for different  configurations, visit the [ml-33ck265mp508-lvmc-datalogger](https://github.com/MicrochipTech/ml-dsPIC33CK-LVMC-Data-Logger) repository.
 
 ## Firmware Operation
 
@@ -74,13 +74,13 @@ Note the firmware class ID mapping is as below:
 
 - Build the project and program the device. 
 
-- Open the terminal window on Data Visualizer, select COM port of LVMC board and set below configurations
+- Open the terminal window on Data Visualizer, select the COM port of the LVMC board, and set the below configurations
   - Baud rate 115200
   - Data bits 8
   - Stop bits 1
   - Parity None
 
-The below message will be printed right after device reset. Indicating Knowledge pack number and the motor status. 
+The below message will be printed right after the device reset. Indicating Knowledge pack number and the motor status. 
 
   
 
