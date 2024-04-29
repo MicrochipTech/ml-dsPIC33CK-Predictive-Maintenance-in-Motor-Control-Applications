@@ -1,6 +1,6 @@
  ![logo_microchip](assets/microchip.png)  ![logo_ml](assets/MPLAB-MachineLearning.png)
 
-# Predictive Maintenance System for Industrial Motors
+# Predictive Maintenance in Motor Control Applications
 | ![Deployed gesture recognizer](assets/PredictiveMaintananceDemo.gif) |
 | :----------------------------------------------------------: |
 |            Deployed Predictive Maintenance System            |
