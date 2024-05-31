@@ -1,5 +1,5 @@
 /*
-© [2024] Microchip Technology Inc. and its subsidiaries.
+Â© [2024] Microchip Technology Inc. and its subsidiaries.
 
     Subject to your compliance with these terms, you may use Microchip 
     software and any derivatives exclusively with Microchip products. 
@@ -131,7 +131,7 @@ void Null_Handler() {
 // RPM measurement 
 uint16_t speed_measurement_local(APPLICATION_DATA *appData)
 {
-    rpm = (float)appData->motorVelocityCommand / RPM_CONVERSION_FACTOR;      
+    rpm = (float)(motor.apiData.velocityMeasured) / RPM_CONVERSION_FACTOR; 
     return rpm;
 }
 
